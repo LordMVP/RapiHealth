@@ -1,0 +1,83 @@
+.morris-hover{position:absolute;z-index:1000}.morris-hover.morris-default-style{border-radius:10px;padding:6px;color:#666;background:rgba(255,255,255,0.8);border:solid 2px rgba(230,230,230,0.8);font-family:sans-serif;font-size:12px;text-align:center}.morris-hover.morris-default-style .morris-hover-row-label{font-weight:bold;margin:0.25em 0}
+.morris-hover.morris-default-style .morris-hover-point{white-space:nowrap;margin:0.1em 0}
+
+
+
+#content .filtro{
+	overflow:hidden;
+	padding-bottom:15px
+}
+#content .filtro select{
+	width:100px
+}
+#content .filtro ul{
+	list-style:none;
+	padding:0
+}
+#content .filtro li{
+	float:left;
+	display:block;
+	margin:0 5px
+}
+#content .filtro li a{
+	color:#006;
+	position:relative;
+	top:5px;
+	text-decoration:underline
+}
+#content .filtro li label{
+	float:left;
+	padding:4px 5px 0 0
+}
+#content table{
+	border-collapse:collapse;
+	width:100%;
+}
+#content table th{
+	border:1px solid #999;
+	padding:8px;
+	background:#F8F8F8
+}
+#content table th span{
+	cursor:pointer;
+	padding-right:12px
+}
+#content table th span.asc{
+	background:url(assets/imgs/sorta.gif) no-repeat right center;
+}
+#content table th span.desc{
+	background:url(assets/imgs/sortd.gif) no-repeat right center;
+}
+#content table td{
+	border:1px solid #999;
+	padding:6px
+}
+div.tableContainer {
+	width: 100%;       /* table width will be 99% of this*/
+	height: 320px;    /* must be greater than tbody*/
+	overflow: auto;
+	margin: 0 auto;
+}
+
+table {
+	width: 95%;  /*100% of container produces horiz. scroll in Mozilla*/
+	border: none;
+	border-spacing: 0px;
+	background-color: transparent;
+}
+
+table>tbody {
+	overflow: auto;
+	/*height: 260px;*/
+	overflow-x: hidden;
+}
+
+table>tbody tr {
+	height: auto;
+}
+
+table>thead tr {
+	position:relative;
+	top: 0px;/*expression(offsetParent.scrollTop); IE5+ only*/
+}
+
