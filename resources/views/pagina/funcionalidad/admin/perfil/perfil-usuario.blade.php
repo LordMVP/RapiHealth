@@ -26,6 +26,7 @@
 			<div class="row">
 				<div class="well">
 					<h4 class="text-center">Informacion Personal</h4>
+					
 					<div class="row">
 						<div class="col-xs-5 col-md-2">
 							<a href="#" class="thumbnail">
@@ -34,6 +35,7 @@
 							</a>
 						</div>
 						<div class="col-xs-4 col-md-1">
+							<!-- Informacion Personal-->
 							<strong>Nombre</strong><br><br>
 							<strong>Apellido</strong><br><br>
 							<strong>Direccion</strong>
@@ -73,6 +75,8 @@
 			@else
 
 			<script type="text/javascript">
+			
+				alert("Error en la pagina ");
 				window.location="{{ route('error.pagina') }}";
 			</script>
 
