@@ -15,7 +15,7 @@
 		@include('pagina.funcionalidad.nav')
 
 		@if (Auth::user())
-222
+
 		<div id="page-wrapper">
 			<div class="row">
 				<div class="col-lg-12">
@@ -50,7 +50,7 @@
 							<strong>Email</strong><br>
 						</div>	
 						<div class="col-xs-5 col-md-3">
-							<span id=""> {{ Auth::user()->telefono }} </span><br><br>
+							<span id=""> @if({{ Auth::user() }} @else Auth::user()->telefono ) </span><br><br>
 							<span id=""> {{ Auth::user()->email }} </span><br>
 						</div>
 						<br><br><br><br><br><br><br><br>
