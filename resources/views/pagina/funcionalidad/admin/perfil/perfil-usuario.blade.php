@@ -15,11 +15,11 @@
 		@include('pagina.funcionalidad.nav')
 
 		@if (Auth::user())
-
+222
 		<div id="page-wrapper">
 			<div class="row">
 				<div class="col-lg-12">
-					<h3 class="page-header">Informacion {{ Auth::user()->tipo }} </h3>
+					<h3 class="page-header">Informacion {{ Auth::user2()->tipo }} </h3>
 				</div>
 			</div>
 
