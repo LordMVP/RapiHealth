@@ -6,7 +6,8 @@
 <script type="text/javascript">
 
 	function cargarpdf(id){
-
+	
+	alert("cargar pedf de Turnos");
 
 		//alert(id);
 		$.ajax({
