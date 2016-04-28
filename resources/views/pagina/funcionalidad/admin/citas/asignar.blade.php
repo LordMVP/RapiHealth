@@ -7,7 +7,7 @@
 
 	function fun_ano(){
 		//alert('hola');
-
+		//Citas FTW
 		var numero =document.getElementById("periodo").value;
 		var select_op = document.getElementById('periodo'); 
 
