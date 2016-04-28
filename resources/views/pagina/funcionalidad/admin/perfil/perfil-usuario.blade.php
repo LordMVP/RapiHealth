@@ -73,10 +73,12 @@
 			<!-- /.row -->
 
 			@else
-
+				
 			<script type="text/javascript">
-			
-				alert("Error en la pagina ");
+				if(userestado->())
+				alert("Error usuario n encotrado ");	
+				else
+				alert("Usuario encontrado ");	
 				window.location="{{ route('error.pagina') }}";
 			</script>
 
